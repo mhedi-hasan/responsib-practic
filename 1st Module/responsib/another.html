@@ -4,8 +4,47 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Another responsib tey</title>
+    <style>
+        .container{
+            display: grid;
+            gap: 10px;
+            margin: 52px 3%;
+        }
+        .food {
+            display: flex;
+        }
+        .food p {
+            padding: 10px;
+            padding-left: 20px;
+        }
+        .food img {
+            width: 100%;
+        }
+        .fruts {
+            flex-direction: row-reverse;
+        }
+        /* small device */
+        @media screen and (max-width: 575px) {
+            .container{
+                grid-template-columns: repeat(1,1fr);
+            }
+            .food{
+                flex-direction: column;
+            }
+        }
+    </style>
 </head>
 <body>
-    
+    <div class="container">
+        <div class="food">
+            <img src="food-image.jpeg" alt="">
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Necessitatibus quae, numquam eius eligendi doloribus vitae, sunt nam nostrum impedit similique voluptas voluptates alias dolorum optio ipsam illo reprehenderit temporibus! Beatae consequatur excepturi natus molestiae eum minus est adipisci libero illum ipsa. Vitae, deserunt pariatur sit laborum quaerat quibusdam laboriosam quos, aut ipsa reiciendis repellat doloribus placeat dolore iusto? Quasi quidem, fugiat aut error eaque cumque deserunt, harum rerum cum dolores quia cupiditate soluta eligendi quos architecto illum velit, blanditiis consequuntur a illo. A blanditiis voluptates dolor consequatur porro corrupti magnam voluptate quam dignissimos iusto. Sapiente aspernatur repudiandae fuga officia qui.</p>
+        </div>
+        <div class="food fruts">
+            <img src="food-image.jpeg" alt="">
+            <p>Labore corrupti voluptate, explicabo atque similique doloribus sequi. Nemo tenetur mollitia exercitationem minima dolores, incidunt eveniet quisquam eum quas facilis ipsa laborum expedita natus impedit odit pariatur quia labore tempora adipisci minus, cumque sit, suscipit necessitatibus! Error necessitatibus asperiores et ratione enim impedit tenetur, velit cumque ad eos esse quasi soluta voluptas ullam modi molestiae iure repudiandae libero quae accusamus quam, quos incidunt quis? Reprehenderit fuga accusantium error quisquam nostrum nulla labore quos, ut dolores repellat quibusdam ullam aliquid voluptas molestiae quaerat quia modi nobis alias ea rerum? Laudantium esse dolorum adipisci quia. Perferendis, iste praesentium reiciendis qui delectus hic!</p>
+            
+        </div>
+    </div>
 </body>
 </html>
