@@ -4,69 +4,152 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>New practice</title>
+    <style>
+        .container{
+            display: grid;
+            gap: 18px;
+            margin: 4em 5.8%;
+        }
+        .food{
+            border:1px solid black;
+            padding: 15px;
+            display: flex;
+            border-radius: 10px;
+        }
+        .food div {
+            padding-left: 20px;
+        }
+        /* small device */
+        @media screen and (max-width: 575px) {
+            .container {
+                grid-template-columns: repeat(1, 1fr);
+            }
+            .food{
+                flex-direction: column;
+            }
+        }
+        /* meium device */
+        @media screen and (min-width: 576px) and (max-width: 820px) {
+            .container{
+                grid-template-columns: repeat(2,1fr);
+
+            }
+            .food {
+                flex-direction: column;
+            }
+        }
+
+    </style>
 </head>
 <body>
-    <!-- .container>.food*12>img[src="food-image.jpeg"]+p>lorem22^btn{Shop Now} -->
     <div class="container">
         <div class="food">
             <img src="food-image.jpeg" alt="">
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos adipisci quisquam quo quidem sunt officia provident rerum in, doloremque nostrum qui nobis.</p>
+            
+            <div>
+                <h2>Spaical Food</h2>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dolor voluptatum dolores suscipit quos tenetur voluptates! Sapiente modi ad hic ipsam.</p>
             <button>Shop Now</button>
+            </div>
         </div>
         <div class="food">
             <img src="food-image.jpeg" alt="">
-            <p>Nam quo animi alias nobis reprehenderit asperiores illo veniam, ab rerum aliquid dolores molestias cumque nostrum quia fugit beatae excepturi eveniet quod.</p>
+            
+            <div>
+                <h2>Spaical Food</h2>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dolor voluptatum dolores suscipit quos tenetur voluptates! Sapiente modi ad hic ipsam.</p>
             <button>Shop Now</button>
+            </div>
         </div>
         <div class="food">
             <img src="food-image.jpeg" alt="">
-            <p>Rerum nobis unde nostrum, commodi ab ratione, odio quidem at voluptas quisquam dolorem vero autem beatae dolores assumenda iste, laudantium corrupti vel.</p>
+            
+            <div>
+                <h2>Spaical Food</h2>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dolor voluptatum dolores suscipit quos tenetur voluptates! Sapiente modi ad hic ipsam.</p>
             <button>Shop Now</button>
+            </div>
         </div>
         <div class="food">
             <img src="food-image.jpeg" alt="">
-            <p>Maiores suscipit repellendus quod vitae provident enim molestiae reiciendis. Iure nihil officiis harum numquam tempore quod, officia architecto quo suscipit fuga dolorum?</p>
+            
+            <div>
+                <h2>Spaical Food</h2>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dolor voluptatum dolores suscipit quos tenetur voluptates! Sapiente modi ad hic ipsam.</p>
             <button>Shop Now</button>
+            </div>
         </div>
         <div class="food">
             <img src="food-image.jpeg" alt="">
-            <p>Assumenda, animi corrupti! Aliquid modi harum aspernatur vel qui, dicta in ullam. Rerum veniam tempora officia dolore quod fuga nesciunt repudiandae pariatur!</p>
+            
+            <div>
+                <h2>Spaical Food</h2>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dolor voluptatum dolores suscipit quos tenetur voluptates! Sapiente modi ad hic ipsam.</p>
             <button>Shop Now</button>
+            </div>
         </div>
         <div class="food">
             <img src="food-image.jpeg" alt="">
-            <p>Corporis error asperiores, earum laudantium doloremque aperiam nam animi molestias possimus neque temporibus, quaerat officia dignissimos harum, ad mollitia assumenda delectus. Sint.</p>
+            
+            <div>
+                <h2>Spaical Food</h2>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dolor voluptatum dolores suscipit quos tenetur voluptates! Sapiente modi ad hic ipsam.</p>
             <button>Shop Now</button>
+            </div>
         </div>
         <div class="food">
             <img src="food-image.jpeg" alt="">
-            <p>Est mollitia odio suscipit! Quaerat tenetur eius alias, sequi magni ipsa suscipit quidem repudiandae officiis. Adipisci, distinctio veritatis pariatur inventore necessitatibus nihil.</p>
+            
+            <div>
+                <h2>Spaical Food</h2>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dolor voluptatum dolores suscipit quos tenetur voluptates! Sapiente modi ad hic ipsam.</p>
             <button>Shop Now</button>
+            </div>
         </div>
         <div class="food">
             <img src="food-image.jpeg" alt="">
-            <p>Nobis quaerat voluptatibus minima placeat eveniet labore. Quis, obcaecati deleniti. Explicabo ipsam error dolores accusantium ipsa et distinctio fugiat, nesciunt illum suscipit.</p>
+            
+            <div>
+                <h2>Spaical Food</h2>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dolor voluptatum dolores suscipit quos tenetur voluptates! Sapiente modi ad hic ipsam.</p>
             <button>Shop Now</button>
+            </div>
         </div>
         <div class="food">
             <img src="food-image.jpeg" alt="">
-            <p>Rerum alias laborum odio dolores molestias cum dignissimos odit adipisci commodi deserunt aperiam fugiat voluptatum, dolor, totam, quis corporis sit? Vel, cumque!</p>
+            
+            <div>
+                <h2>Spaical Food</h2>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dolor voluptatum dolores suscipit quos tenetur voluptates! Sapiente modi ad hic ipsam.</p>
             <button>Shop Now</button>
+            </div>
         </div>
         <div class="food">
             <img src="food-image.jpeg" alt="">
-            <p>Vero, debitis ratione sunt aperiam odio vitae doloremque voluptas in laborum, nulla adipisci repellat dignissimos eos, cumque nostrum unde obcaecati quisquam quos!</p>
+            
+            <div>
+                <h2>Spaical Food</h2>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dolor voluptatum dolores suscipit quos tenetur voluptates! Sapiente modi ad hic ipsam.</p>
             <button>Shop Now</button>
+            </div>
         </div>
         <div class="food">
             <img src="food-image.jpeg" alt="">
-            <p>Aliquid, sed! Asperiores voluptatibus, eligendi iste fugiat nesciunt dolor itaque possimus quae aliquid ex accusamus odio necessitatibus nisi consequatur accusantium suscipit perspiciatis.</p>
+            
+            <div>
+                <h2>Spaical Food</h2>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dolor voluptatum dolores suscipit quos tenetur voluptates! Sapiente modi ad hic ipsam.</p>
             <button>Shop Now</button>
+            </div>
         </div>
         <div class="food">
             <img src="food-image.jpeg" alt="">
-            <p>Hic quasi saepe possimus atque sequi quo modi! Itaque officiis ullam sapiente fuga facere veniam ipsum iste numquam! Sed officiis quod iusto.</p>
+            
+            <div>
+                <h2>Spaical Food</h2>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dolor voluptatum dolores suscipit quos tenetur voluptates! Sapiente modi ad hic ipsam.</p>
             <button>Shop Now</button>
+            </div>
         </div>
     </div>
 </body>
